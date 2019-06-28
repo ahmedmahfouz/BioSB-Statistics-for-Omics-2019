@@ -37,10 +37,6 @@ suppressMessages(require(Seurat))
 suppressMessages(require(scater))
 suppressMessages(require(scran))
 suppressMessages(require(Matrix))
-# suppressMessages(require(ggplot2))
-# suppressMessages(require(cowplot))
-# suppressMessages(require(BiocParallel))
-# suppressMessages(require(BiocNeighbors))
 ```
 
 ## Read the data and create a Seurat object
@@ -487,7 +483,7 @@ plotReducedDim(raw.sce, use_dimred = "PCA", by_exprs_values = "logcounts_raw",
 
 In the default normalization method in Seurat, counts for each cell are
 divided by the total counts for that cell and multiplied by the scale
-factor 10 000. This is then log transformed.
+factor 10,000. This is then log transformed.
 
 Here we use the filtered data from the counts slot of the SCE object to
 create a Seurat object. After normalization, we convert the result back
