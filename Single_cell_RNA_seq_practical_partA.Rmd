@@ -306,7 +306,7 @@ plotReducedDim(raw.sce, use_dimred = "PCA", by_exprs_values = "logcounts_raw",
 
 ### Normalization: Log
 
-In the default normalization method in Seurat, counts for each cell are divided by the total counts for that cell and multiplied by the scale factor 10 000. This is then log transformed.
+In the default normalization method in Seurat, counts for each cell are divided by the total counts for that cell and multiplied by the scale factor 10,000. This is then log transformed.
 
 Here we use the filtered data from the counts slot of the SCE object to create a Seurat object. After normalization, we convert the result back into a SingleCellExperiment object for comparing plots.
 
