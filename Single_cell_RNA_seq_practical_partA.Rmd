@@ -41,10 +41,6 @@ suppressMessages(require(Seurat))
 suppressMessages(require(scater))
 suppressMessages(require(scran))
 suppressMessages(require(Matrix))
-# suppressMessages(require(ggplot2))
-# suppressMessages(require(cowplot))
-# suppressMessages(require(BiocParallel))
-# suppressMessages(require(BiocNeighbors))
 ```
 
 
